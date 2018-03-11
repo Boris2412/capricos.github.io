@@ -1,0 +1,224 @@
+@media screen and (max-width: 1140px) {
+	.nav__list {
+		display: none;
+	}
+	
+	.mobile_nav__list{
+		display: block;
+	}
+	
+	.nav__list--open,
+	.header__nav__btn {
+		display: block;
+	}
+	
+	.header__nav {
+		float: right;
+	}
+	
+	.nav__link {
+		padding: 1rem 0;
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.nav__item {
+	display: block;
+	margin-left: 35px;
+	}
+	
+	.nav__item:first-child {
+	margin-top: 30px;
+	}
+	
+	.nav__item:last-child {
+	margin-bottom: 50px;
+	}
+	
+	.glide_plus {
+	position: fixed;
+	top: 0;
+	background: rgba(212, 163, 177, 1) url(../images/Monsteraleave.png) no-repeat 400px 250px;
+	box-shadow: 0px 16px 41px -20px #000000;
+	}
+	
+	.vk__picture {
+	background:  url(../image/vkpink.png) o-repeat center center;
+	}
+	
+	.header__contact {
+	margin-top: 20px;
+	}
+	
+	.m-title {
+	font-size: 50px;
+		}
+	
+	.section-started__content {
+	max-width: 70%;
+		}
+	.stoune_pic {
+		display: none;
+	}
+	
+	.section-injection__content,
+	.section-profcosmetics__content {
+	max-width: 76%;
+	}
+	.inj_pic {
+		margin-left: -600px;
+	}
+	
+	.flower_pic {
+		display: none;
+	}
+	
+	.cosmetics_pic {
+		right: -650px;
+	}
+	
+	.section-subscribe__content {
+		max-width: 80%;
+	}
+	
+	.form-title {
+		font-size: 40px;
+	}
+	
+	.group {
+		max-width: 100%;
+	}
+	
+	.leaf1_pic {
+		left: -600px;
+	}
+	
+	.leaf2_pic {
+		right: -600px;
+	}
+	
+	.contact-block {
+	width: 40%;
+}
+	.footer-nav {
+	width: 30%;
+}
+
+	.contact2-block {
+	width: 26%;
+}
+	
+	.subscribe-block {
+		display: none;
+	}
+	
+	.social-links_tab {
+		display: block;
+		margin-top: 30px;
+	}
+	
+	.madeby {
+		margin-top: 50px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.header__vk,
+	.header__contact-right {
+	display: none;
+	}
+	
+	.header__nav__btn {
+	margin: 16px 0 0 0;
+	}
+	
+	.header__contact {
+		margin-top: 0px;
+	}
+	
+	.header__nav {
+		margin: 0;
+	}
+	.logo__picture {
+		max-width: 70%;
+	}
+	
+	.btn-nav__line {
+	width: 36px;
+	height: 3px;
+	margin-bottom: 6px;
+	}
+	
+	h1 {
+		font-size: 24px;
+	}
+	
+	.section-started {
+	background: #00A5A1 url(../images/bg.jpg) no-repeat bottom bottom;
+	}
+	
+	.section-started__content {
+	max-width: 100%;
+	}
+	
+	.brands {
+		margin-top: 20px;
+	}
+	
+	.brands__item {
+		display: block;
+		margin: 20px 0 0 0;
+	}
+	
+	.inj_pic,
+	.cosmetics_pic,
+	.leaf1_pic,
+	.leaf2_pic {
+		display: none;
+	}
+	
+	.m-title {
+	font-size: 35px;
+		}
+	
+	.section-injection__content,
+	.section-profcosmetics__content,.type_brands, .type_inj, .type_cosm, .type_brands_b {
+	max-width: 100%;
+	}
+	
+	.type_brands, .type_inj,.type_cosm, .type_brands_b {
+	display: block;	
+	margin-top: 70px;
+	margin-bottom: 0;
+	margin-right: 0;
+	}
+	
+	.type_brands {
+	margin: 70px 0;
+	}
+	
+	.section-subscribe__content {
+		max-width: 100%;
+	}
+	
+	.form-title {
+		font-size: 30px;
+	}
+	
+	.group {
+		max-width: 100%;
+	}
+	
+	.contact-block {
+	width: 100%;
+}
+	
+	.footer-nav,.contact2-block {
+	display: none;
+}
+	
+	.subscribe-block {
+		display: none;
+	}
+	
+}
